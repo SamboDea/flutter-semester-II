@@ -1,4 +1,4 @@
-import 'package:app_s2/src/pages/main_pages.dart';
+import 'package:app_s2/src/pages/register_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
 
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: MainPages(),
+      home: RegisterPage(),
     );
   }
 }
